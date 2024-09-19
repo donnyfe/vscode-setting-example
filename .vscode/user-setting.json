@@ -1,0 +1,212 @@
+{
+  // ==========  Global Level Config, needs to put in User Settings ========== 
+  "window.dialogStyle": "custom",
+  "window.nativeTabs": false,
+  "window.title": "${rootName}",
+  "window.titleBarStyle": "custom",
+  "extensions.autoUpdate": "onlyEnabledExtensions",
+  // ========== Visuals ==========
+  "breadcrumbs.enabled": false,
+  "editor.minimap.enabled": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.tabSize": 2,
+  "editor.fontSize": 13,
+  "editor.lineHeight": 20,
+  "editor.fontFamily": "Input Mono, monospace",
+  "editor.lineNumbers": "on",
+  "window.autoDetectColorScheme": false,
+  "workbench.colorTheme": "Monokai",
+  "workbench.sideBar.location": "left",
+  "workbench.startupEditor": "welcomePage",
+  "workbench.editor.tabActionLocation": "left",
+  "workbench.fontAliasing": "antialiased",
+  "workbench.list.smoothScrolling": true,
+  "workbench.tree.expandMode": "singleClick",
+  "workbench.tree.indent": 10,
+  // ========== Editor ==========
+  "debug.onTaskErrors": "debugAnyway",
+  "diffEditor.codeLens": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.find.addExtraSpaceOnTop": false,
+  "editor.inlineSuggest.enabled": true,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.stickyScroll.enabled": true,
+  "editor.hover.sticky": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.suggestSelection": "first",
+  "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
+  "editor.guides.bracketPairs": "active",
+  "editor.autoClosingBrackets": "always",
+  "editor.snippetSuggestions": "top", // 将建议的代码段优先级提前选择，比如输入for第一个提示是for循环代码段。
+  "editor.colorDecorators": false, // 控制编辑器是否显示内联颜色修饰器和颜色选取器。
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.markdownlint": "explicit",
+    "source.organizeImports": "never"
+  },
+  "editor.linkedEditing": true,
+  "editor.fontVariations": false,
+  "editor.fontLigatures": false,
+  "editor.renderControlCharacters": false,
+  "editor.renderWhitespace": "none",
+  "editor.trimAutoWhitespace": true,
+  "workbench.settings.applyToAllProfiles": [],
+  "workbench.editorAssociations": {
+    "*.html": "default",
+    "*.xlsx": "default"
+  },
+  "workbench.editor.closeOnFileDelete": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.perEditorGroup": true,
+  "workbench.editor.limit.value": 5,
+  "terminal.integrated.allowMnemonics": true,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.fontWeight": "300",
+  "terminal.integrated.persistentSessionReviveProcess": "never",
+  "terminal.integrated.tabs.enabled": true,
+  "explorer.confirmDelete": true,
+  "explorer.confirmDragAndDrop": true,
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.simpleDialog.enable": true,
+  // 文件关联语言的优先级配置
+  "files.associations": {
+    "*.vue": "vue",
+    "*.tpl": "html",
+    "*.js": "javascriptreact",
+    "*.ts": "typescript",
+    "*.wxs": "javascript",
+    "*.wxss": "css",
+    "*.cjson": "jsonc",
+    "*.json": "jsonc"
+  },
+  "search.followSymlinks": false,
+  "search.exclude": {
+    "**/*.snap": true,
+    "**/*.svg": true,
+    "**/.git": true,
+    "**/.github": false,
+    "**/.nuxt": true,
+    "**/.output": true,
+    "**/.pnpm": true,
+    "**/.vscode": true,
+    "**/.yarn": true,
+    "**/assets": true,
+    "**/bower_components": true,
+    "**/dist/**": true,
+    "**/logs": true,
+    "**/node_modules": true,
+    "**/out/**": true,
+    "**/package-lock.json": true,
+    "**/pnpm-lock.yaml": true,
+    "**/public": true,
+    "**/temp": true,
+    "**/yarn.lock": true,
+    "**/CHANGELOG*": true,
+    "**/LICENSE*": true
+  },
+  // ========== Extension configs (Prettier) ==========
+  // Prettier for manually formatting
+  "prettier.enable": true,
+  "prettier.printWidth": 100,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.useTabs": true,
+  "prettier.tabWidth": 2,
+  "prettier.trailingComma": "es5",
+  "prettier.bracketSameLine": true,
+  "prettier.singleAttributePerLine": true,
+  "prettier.vueIndentScriptAndStyle": true,
+  // ========== Extension configs (ESLint) ==========
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "eslint.format.enable": false,
+  "eslint.run": "onSave",
+  "eslint.quiet": true,
+  "eslint.codeActionsOnSave.mode": "problems",
+  "eslint.options": {
+    "extensions": [
+      ".js",
+      ".jsx",
+      ".ts",
+      ".tsx",
+      ".vue",
+      ".html"
+    ]
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue",
+    "html",
+    "markdown",
+    "json",
+    "jsonc",
+    "yaml"
+  ],
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.volar": "explicit"
+    }
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[less]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // ========== Extension configs (Markdown) ==========
+  "markdown.extension.completion.enabled": true,
+  "markdown.extension.list.toggle.candidate-markers": [
+    "-",
+    "*",
+    "+",
+    "1.",
+    "1)"
+  ],
+  "markdown.extension.preview.autoShowPreviewToSide": true,
+  "markdown.validate.enabled": true,
+  "markdownlint.focusMode": false,
+  "markdownlint.config": {},
+  // ========== Extension configs ==========
+  "javascript.format.enable": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "javascript.validate.enable": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.triggerExpansionOnTab": false,
+  "security.workspace.trust.untrustedFiles": "open"
+}
