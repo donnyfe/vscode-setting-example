@@ -1,0 +1,26 @@
+{
+  "markdown-api-table": {
+		"scope": "markdown",
+		"prefix": "table",
+		"body": [
+			"<table>",
+			"<tr>",
+			"<td width=\"400px\" valign=\"top\">",
+			"",
+			"### API",
+			"",
+			"Description",
+			"",
+			"</td>",
+			"<td width=\"600px\"><br>",
+			"",
+			"```ts",
+			"// code block",
+			"```",
+			"",
+			"</td>",
+			"</tr>",
+			"</table>",
+		],
+	}
+}
