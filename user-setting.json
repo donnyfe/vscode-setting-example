@@ -155,7 +155,7 @@
     "yaml"
   ],
   "[vue]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "Vue.volar",
     "editor.codeActionsOnSave": {
       "source.fixAll.volar": "explicit"
     }
@@ -202,8 +202,8 @@
   "markdownlint.config": {},
   // ========== Extension configs ==========
   "javascript.format.enable": true,
-  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
   "javascript.validate.enable": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.tsdk": "node_modules/typescript/lib",
   "emmet.showSuggestionsAsSnippets": true,
