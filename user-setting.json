@@ -147,12 +147,6 @@
     "javascriptreact",
     "typescript",
     "typescriptreact",
-    "vue",
-    "html",
-    "markdown",
-    "json",
-    "jsonc",
-    "yaml"
   ],
   "[vue]": {
     "editor.defaultFormatter": "Vue.volar",
@@ -205,6 +199,7 @@
   "javascript.validate.enable": true,
   "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
+  "html.format.wrapAttributes": "force-expand-multiline",
   "typescript.tsdk": "node_modules/typescript/lib",
   "emmet.showSuggestionsAsSnippets": true,
   "emmet.triggerExpansionOnTab": false,

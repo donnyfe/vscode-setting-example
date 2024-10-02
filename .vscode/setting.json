@@ -13,5 +13,13 @@
     "editor.codeActionsOnSave": {
       "source.fixAll.volar": "explicit"
     }
-  }
+  },
+	"prettier.singleAttributePerLine": true,
+	"html.format.wrapAttributes": "force-expand-multiline",
+	"eslint.validate": [
+		"javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+	]
 }
